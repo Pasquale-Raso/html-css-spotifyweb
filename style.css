@@ -3,14 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-footer{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(17, 31, 71);
+.col-2-md, .col-10-md {
+    background-color: aquamarine;
+    height: calc( 100vh - 150px);
 }
 
-.main-content{
-    height: calc( 100vh - 100px);
-    background-color: rgb(17, 71, 26);
+.col-12-md {
+    background-color: rgb(16, 17, 17);
+    height: 150px;
+}
+
+.header {
+    background-color: rgb(38, 0, 63);
+    height: 150px;
+    position: fixed;
+    opacity: 0.8; 
+}
+
+.main {
+    background-color: rgb(255, 217, 0);
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+p{
+    font-size: 60px;
+}
+
+.footer{
+    position: fixed;
 }
