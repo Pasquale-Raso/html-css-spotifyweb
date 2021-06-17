@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(17, 31, 71);
+}
+
+.main-content{
+    height: calc( 100vh - 100px);
+    background-color: rgb(17, 71, 26);
+}
