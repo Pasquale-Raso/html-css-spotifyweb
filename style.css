@@ -8,13 +8,6 @@ body{
     font-family: 'Montserrat', sans-serif;
    
 }
-.col-2-md, .col-10-md {
-    height: calc( 100vh - 150px);
-}
-
-.col-12-md {
-    height: 150px;
-}
 
 .navbar {
     background-color: rgb(0, 0, 0);
@@ -71,11 +64,11 @@ body{
 }
 
 .title {
-    padding: 40px 0px 20px 40px;
+    padding: 40px 0px 20px 20px;
 }
 
 .subtitle {
-    padding: 0px 0px 30px 40px;
+    padding: 0px 0px 30px 20px;
     color: rgb(125, 127, 132);
 }
 
@@ -84,42 +77,25 @@ body{
     margin-top: 10px;
 }
 
-.music-selector-row1 {
+.music-selector-row1, .music-selector-row2, .music-selector-row3 {
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.music-selector-row2 {
-    display: flex;
-    margin-left: 40px;
-    text-align: center;
-}
-
-.music-selector-row3 {
-    display: flex;
-    margin-left: 40px;
     text-align: center;
 }
 
 *.music-selector-row1 > .box{
-    width: 200px;
-    height:300px;
+    padding: 20px;
 }
 
 *.music-selector-row2 > .box{
-    width: 200px;
-    height:300px;
+    padding: 20px;
 }
 
 *.music-selector-row3 > .box{
-    width: 200px;
-    height:300px;  
+    padding: 20px;
 }
 
 img{
     width: 100%;
-    height:60%;
     object-fit: cover;
     margin-bottom: 10px;
   }
