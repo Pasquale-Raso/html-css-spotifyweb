@@ -16,6 +16,10 @@ body{
     height: 150px;
 }
 
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
 .header {
     background-color: rgb(8, 11, 18);
     height: 150px;
@@ -119,6 +123,10 @@ img{
     object-fit: cover;
     margin-bottom: 10px;
   }
+
+  .circular-square {
+    border-radius: 50%;
+    }
 
 .footer{
     height: 150px;
