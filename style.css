@@ -1,141 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* -----------------------BODY---------------------------- */
 body{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* -----------------------NAVBAR---------------------------- */
 .navbar {
     background-color: rgb(0, 0, 0);
     height: calc(100vh - 70px);
     overflow: hidden;
     font-size: 10px;
-}
-
-.header {
-    background-color: rgb(8, 11, 18);
-    height: 150px;
-    position: fixed;
-    opacity: 0.8;
-    z-index: 1; 
-}
-
-.main {
-    background-color: rgb(20, 25, 34);
-    height: calc(100vh - 70px);
-    overflow-y: auto;
-    padding-top: 150px;
-}
-
-.nav-main{
-    background-color: rgb(20, 25, 34);
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-
-/* tutti i figli di nav-main ul il a */
-.nav-main *{ 
-    list-style-type: none;
-    display: inline-block;
-    color: white;
-    padding: 8px;
-    padding-bottom: 2px;
-    text-decoration: none;
-}
-
-.nav-main a:hover{
-    border-bottom: 1px solid greenyellow;
-}
-
-.white-button a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px 30px 10px 30px;
-    text-align: center;
-    border-radius: 20px 20px 20px 20px;
-    position: absolute;
-    top: 56px;
-    right: 300px;
-    width: 300px;
-}
-
-.white-button a:hover{
-    transform: scale(1.2);
-}
-
-.title {
-    padding: 40px 0px 20px 20px;
-}
-
-.subtitle {
-    padding: 0px 0px 30px 20px;
-    color: rgb(125, 127, 132);
-}
-
-.subtitle-music {
-    color: rgb(125, 127, 132);
-    margin-top: 10px;
-}
-
-.music-selector-row1, .music-selector-row2, .music-selector-row3 {
-    display: flex;
-    text-align: center;
-}
-
-
-*.music-selector-row1 > .box{
-    padding: 20px;
-}
-
-*.music-selector-row2 > .box{
-    padding: 20px;
-}
-
-*.music-selector-row3 > .box{
-    padding: 20px;
-}
-
-img{
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-.far {
-    color: white;
-    display: none; 
-}
-.box:hover i{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 35%;
-    left: 50%;
-    cursor: pointer;
-    display: block;
-}
-
-.box{
-    position: relative;
-}
-
-.music-selector-row1 * img:hover {
-    opacity: 30%;
-}
-
-.music-selector-row2 * img:hover {
-    opacity: 30%;
-}
-
-.music-selector-row3 * img:hover {
-    opacity: 30%;
-}
-
-.circular-square {
-    border-radius: 50%;
 }
 
 #Logo-big{
@@ -196,6 +69,131 @@ img{
     margin-bottom: 10px;
 }
 
+/* -----------------------HEADER---------------------------- */
+.header {
+    background-color: rgb(8, 11, 18);
+    height: 150px;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 1; 
+}
+
+.white-button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    top: 56px;
+    right: 300px;
+    width: 300px;
+}
+/* -----------------------MAIN---------------------------- */
+.main {
+    background-color: rgb(20, 25, 34);
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    padding-top: 150px;
+}
+
+.nav-main{
+    background-color: rgb(20, 25, 34);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* TODO: tutti i figli di nav-main ul il a */
+.nav-main *{ 
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.nav-main a:hover{
+    border-bottom: 1px solid greenyellow;
+}
+
+.white-button a:hover{
+    transform: scale(1.2);
+}
+
+.title {
+    padding: 40px 0px 20px 20px;
+}
+
+.subtitle {
+    padding: 0px 0px 30px 20px;
+    color: rgb(125, 127, 132);
+}
+
+.subtitle-music {
+    color: rgb(125, 127, 132);
+    margin-top: 10px;
+}
+
+.music-selector-row1, .music-selector-row2, .music-selector-row3 {
+    display: flex;
+    text-align: center;
+}
+
+*.music-selector-row1 > .box{
+    padding: 20px;
+}
+
+*.music-selector-row2 > .box{
+    padding: 20px;
+}
+
+*.music-selector-row3 > .box{
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.far {
+    color: white;
+    display: none; 
+}
+
+.box:hover i{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    cursor: pointer;
+    display: block;
+}
+
+.box{
+    position: relative;
+}
+
+.music-selector-row1 * img:hover {
+    opacity: 30%;
+}
+
+.music-selector-row2 * img:hover {
+    opacity: 30%;
+}
+
+.music-selector-row3 * img:hover {
+    opacity: 30%;
+}
+
+.circular-square {
+    border-radius: 50%;
+}
+
+/* -----------------------FOOTER---------------------------- */
 .footer{
     height: 70px;
     background-color: rgb(40, 40, 40); 
