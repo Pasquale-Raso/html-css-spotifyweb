@@ -399,45 +399,55 @@ img{
     /* -----------------------NAVBAR---------------------------- */
 
 
-#Logo-big{
-    padding: 10px;
-    display: none;
+    #Logo-big{
+        padding: 10px;
+        display: none;
+    }
+
+    #Logo-sm{
+        display: inline;
+        padding: 10px;
+    }
+
+    .playlist{
+        height: 180px;
+        overflow: auto;
+        display: none;
+    }
+
+    #h3-playlist{
+        padding: 10px 20px 10px 20px;
+        display: none;
+    }
+
+    .playlist *{
+        color: white;
+        padding: 8px;
+        padding-bottom: 5px;
+        text-decoration: none;
+    }
+
+    #line{
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .navbar * p{
+        display: none;
+    }
+
+    .png{
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-left: 12px;
+        color: white;
+    }
+
 }
 
-#Logo-sm{
-    display: inline;
-    padding: 10px;
-}
-
-.playlist{
-    height: 180px;
-    overflow: auto;
-    display: none;
-}
-
-#h3-playlist{
-    padding: 10px 20px 10px 20px;
-    display: none;
-}
-
-.playlist *{
-    color: white;
-    padding: 8px;
-    padding-bottom: 5px;
-    text-decoration: none;
-}
-
-
-#line{
-    width: 80%;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    display: none;
-}
-
-.navbar * p{
-    display: none;
-}
 
 
 /* -----------------------sm da 576 in poi---------------------------- */
