@@ -12,10 +12,27 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    flex-wrap: nowrap;
 }
 
 #Logo-big{
     padding: 10px;
+}
+
+#Logo-sm{
+    display: none;
+}
+
+.box1-navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.home{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .png{
@@ -364,7 +381,7 @@ img{
 
 
 /* -----------------------xs fino a 576 ---------------------------- */
-@media screen and (min-width: 576px)
+@media screen and (max-width: 576px)
 {
     .white-button a {
         color: rgb(255, 255, 255);
@@ -375,10 +392,53 @@ img{
         border-radius: 20px 20px 20px 20px;
         position: absolute;
         top: 56px;
-        right: 0px;
+        right: 80px;
         width: 300px;
     }
+
+    /* -----------------------NAVBAR---------------------------- */
+
+
+#Logo-big{
+    padding: 10px;
+    display: none;
 }
+
+#Logo-sm{
+    display: inline;
+    padding: 10px;
+}
+
+.playlist{
+    height: 180px;
+    overflow: auto;
+    display: none;
+}
+
+#h3-playlist{
+    padding: 10px 20px 10px 20px;
+    display: none;
+}
+
+.playlist *{
+    color: white;
+    padding: 8px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+
+#line{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.navbar * p{
+    display: none;
+}
+
 
 /* -----------------------sm da 576 in poi---------------------------- */
 @media screen and (min-width: 576px)
@@ -392,7 +452,7 @@ img{
         border-radius: 20px 20px 20px 20px;
         position: absolute;
         top: 56px;
-        right: 130px;
+        right: 20px;
         width: 300px;
     }
 }
@@ -409,7 +469,7 @@ img{
         border-radius: 20px 20px 20px 20px;
         position: absolute;
         top: 56px;
-        right: 200px;
+        right: 50px;
         width: 300px;
     }
 }
