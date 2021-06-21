@@ -231,6 +231,9 @@ img{
     text-align: right;
     padding-top: 20px;
     padding-right: 10px;
+    justify-content:flex-end;
+    flex-wrap: nowrap;
+    display: flex;
 }
 
 .row-player{
@@ -268,7 +271,6 @@ img{
     height: 15px;
     margin-left: 5px;
     vertical-align: middle;
-    margin-top: 10px;
 }
 
 .icon3{
@@ -311,6 +313,7 @@ img{
     height: 3px;
     background-color: rgb(121, 119, 119);
     display: inline-block;
+    margin-top: 8px;
 }
 
 .small-bar{
@@ -446,9 +449,14 @@ img{
         color: white;
     }
 
+    .icon{
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+        display: none;
+    }
+
 }
-
-
 
 /* -----------------------sm da 576 in poi---------------------------- */
 @media screen and (min-width: 576px)
